@@ -1,0 +1,65 @@
+
+/* Estilo do container */
+.container {
+    image-resolution: 50%;
+    padding: 20px;
+    margin: auto;
+    max-width: 500px;
+    background-color: #f6e1c8;
+  }
+
+  /*Estilo da imagem*/
+  .imagem{
+    height: 150px;
+  }
+  
+  
+/* Estilo do título */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+/* Estilo do formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Estilo do campo de usuário */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Estilo da label */
+label {
+  font-weight: bold;
+}
+
+/* Estilo do campo de senha */
+input[type="password"] {
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Estilo do botão de entrar */
+.btn-primary {
+  background-color: #337ab7;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilo do link de cadastro */
+.btn-link {
+  text-decoration: none;
+  color: #337ab7;
+  cursor: pointer;
+  text-align: center;
+}

@@ -1,0 +1,89 @@
+/* Estilo do container */
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+  }
+  
+  /* Título */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Formulário */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Grupos de campos */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  /* Rótulos */
+  label {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  /* Campos de texto */
+  input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Botões */
+  button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Botão de pesquisa */
+  .btn-primary {
+    background-color: #187a75;
+    color: #fff;
+  }
+  
+  /* Botão de limpar */
+  .btn-link {
+    color: #187a75;
+    text-decoration: none;
+  }
+  
+  /* Resultado da pesquisa */
+  .resultado-pesquisa {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e5e5e5;
+  }
+  
+  /* Título do resultado */
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Lista de resultados */
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Itens da lista */
+  li {
+    font-size: 14px;
+  }
+  

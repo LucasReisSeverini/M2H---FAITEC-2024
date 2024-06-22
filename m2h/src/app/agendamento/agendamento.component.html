@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Liberação de Agenda</h1>
+      <form formGroup="formLiberacaoAgenda">
+        <div class="form-group">
+          <label for="data">Data</label>
+          <input type="date" class="form-control" id="data" formControlName="data">
+        </div>
+        <div class="form-group">
+          <label for="horario">Horário</label>
+          <input type="time" class="form-control" id="horario" formControlName="horario">
+        </div>
+        <div class="form-group">
+          <label for="paciente">Paciente</label>
+          <select class="form-control" id="paciente" formControlName="paciente">
+            <option *ngFor="let paciente of pacientes" [value]="paciente.id">{{paciente.nome}}</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Liberar</button>
+      </form>
+    </div>
+  </div>
+</div>
